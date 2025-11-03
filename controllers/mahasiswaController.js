@@ -31,7 +31,7 @@ const createMahasiswa = async (req, res) => {
 const loginMahasiswa = async (req, res) => {
 	try {
 		const { npm, password } = req.body;
-		const mahasiswa = await Mahasiswa.findOne({ npm, password });
+		const mahasiswa = await Mahasiswa.findOne({ npm });
 		if (!mahasiswa) return res.status(401).json({ message: 'Invalid NPM or password' });
 		const isPasswordMatch = await bcrypt.compare(password, mahasiswa.password);
 		if (!isPasswordMatch) return res.status(401).json({ message: 'Invalid NPM or password' });
