@@ -1,0 +1,4 @@
+<!-- terminal -->
+npm init -y
+npm install install nodemon mongoose express dotenv cors bcryptjs
+npm run dev
