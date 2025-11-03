@@ -1,0 +1,21 @@
+{
+  "name": "pertemuan_03_nov_2025_salimalfaruq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalimTNKuho/pertemuan_03_nov_2025_SalimAlfaruq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SalimTNKuho/pertemuan_03_nov_2025_SalimAlfaruq/issues"
+  },
+  "homepage": "https://github.com/SalimTNKuho/pertemuan_03_nov_2025_SalimAlfaruq#readme",
+  "description": "",
+  "type": "module"
+}
