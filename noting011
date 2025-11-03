@@ -2,3 +2,10 @@
 npm init -y
 npm install install nodemon mongoose express dotenv cors bcryptjs
 npm run dev
+
+<!-- thunder client -->
+GET = http://localhost:5000/api/mahasiswa
+POST = http://localhost:5000/api/auth/register (register)
+POST = http://localhost:5000/api/auth/login (login)
+PUT = http://localhost:5000/api/{id unik mahasiswa}
+DEL = http://localhost:5000/api/mahasiswa/{id unik mahasiswa}
